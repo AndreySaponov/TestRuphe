@@ -16,11 +16,7 @@ class Person():
 
 class Experiment():
     def __init__(self, person, test1, test2, test3):
-        self.person = person
-        self.test1 = test1
-        self.test2 = test2
-        self.test3 = test3
-
+  
 class TestWin(QWidget):
     def __init__(self):
         ''' вікно, в якому проводиться опитування '''
