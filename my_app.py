@@ -40,9 +40,7 @@ class MainWin(QWidget):
         self.setLayout(self.layout_line)
 
     
-    def next_click(self):
-        self.tw = TestWin()
-        self.hide()
+  
 
     def connects(self):
         self.btn_next.clicked.connect(self.next_click)
