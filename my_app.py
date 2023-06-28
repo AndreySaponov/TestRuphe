@@ -1,25 +1,5 @@
 
 
-
-
-       
-class MainWin(QWidget):
-    def __init__(self):
-        ''' вікно, в якому розташовується привітання '''
-        super().__init__()
-
-         # створюємо та налаштовуємо графічні елементи:
-        self.initUI()
-
-         #Встановлює зв'язки між елементами
-        self.connects()
-
-         #Встановлює, як виглядатиме вікно (напис, розмір, місце)
-        self.set_appear()
-
-         # старт:
-        self.show()
-
     def initUI(self):
         ''' створює графічні елементи '''
         self.btn_next = QPushButton(txt_next, self)
